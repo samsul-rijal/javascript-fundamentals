@@ -12,4 +12,10 @@ if (nilai >= 85 && nilai <= 100) {
   console.log("Anda mendapatkan nilai B");
 } else if (nilai >= 60 && nilai <= 70) {
   console.log("Anda mendapatkan nilai C");
+} else if (nilai >= 50 && nilai <= 60) {
+  console.log("Anda mendapatkan nilai D");
+} else if (nilai >= 0 && nilai <= 50) {
+  console.log("Anda mendapatkan nilai E");
+} else {
+  console.log("Masukan nilai yang benar !!");
 }

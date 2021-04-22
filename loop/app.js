@@ -33,7 +33,7 @@ document.write(
 for (let i = 1; i <= 5; i++) {
   document.write(i * i + " ");
 }
-//output kuadrat sebanyak 5 kali:  1 4 9 16 25
+//output kuadrat sebanyak 5 kali :  1 4 9 16 25
 
 document.write(
   "<br>" + "Menampilkan perulangan kelipatan 3 sebanyak 5 kali" + "<br>"
@@ -41,4 +41,4 @@ document.write(
 for (let i = 1; i <= 5; i++) {
   document.write(i * 3 + " ");
 }
-//output kelipatan 3 sebanyak 5 kali: 3 6 9 12 15
+//output kelipatan 3 sebanyak 5 kali : 3 6 9 12 15
