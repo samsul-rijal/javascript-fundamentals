@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Filter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <h1> Data Mahasiswa</h1>
+    <div class="input-container">
+        <i class="fa fa-search icon"></i>
+        <input class="input-field" type="text" id="myInput" onkeyup="myFunction()"
+            placeholder="Cari berdasarkan nama..">
+    </div>
+
+    <table class="table" id="myTable">
+
+        <tr class="header">
+            <th style="width:40%;">Nama</th>
+            <th style="width:30%;">Alamat</th>
+            <th style="width:30%;">Jurusan</th>
+        </tr>
+
+        <tr>
+            <td>Samsul Rijal</td>
+            <td>Rangkasbitung</td>
+            <td>Teknik Informatika</td>
+        </tr>
+        <tr>
+            <td>Arief Hidayat</td>
+            <td>Depok</td>
+            <td>Teknik Informatika</td>
+        </tr>
+        <tr>
+            <td>Fikri Ramadhan</td>
+            <td>Jakarta Selatan</td>
+            <td>Akuntasi</td>
+        </tr>
+        <tr>
+            <td>Putri Sapitri</td>
+            <td>Jakarta Barat</td>
+            <td>Akuntasi</td>
+        </tr>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
